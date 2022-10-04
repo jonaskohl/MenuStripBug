@@ -1,16 +1,16 @@
-﻿namespace MenuStripBug
+﻿namespace MenuStripBugNetFramework48
 {
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Erforderliche Designervariable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Verwendete Ressourcen bereinigen.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,15 +20,14 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Vom Windows Form-Designer generierter Code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Erforderliche Methode für die Designerunterstützung.
+        /// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menu1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.item11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,10 +35,7 @@
             this.menu2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.item21ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.item22ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +46,7 @@
             this.menu2ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(662, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -66,13 +62,13 @@
             // item11ToolStripMenuItem
             // 
             this.item11ToolStripMenuItem.Name = "item11ToolStripMenuItem";
-            this.item11ToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.item11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.item11ToolStripMenuItem.Text = "Item 1.1";
             // 
             // item12ToolStripMenuItem
             // 
             this.item12ToolStripMenuItem.Name = "item12ToolStripMenuItem";
-            this.item12ToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.item12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.item12ToolStripMenuItem.Text = "Item 1.2";
             // 
             // menu2ToolStripMenuItem
@@ -89,72 +85,36 @@
             // item21ToolStripMenuItem
             // 
             this.item21ToolStripMenuItem.Name = "item21ToolStripMenuItem";
-            this.item21ToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.item21ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.item21ToolStripMenuItem.Text = "Item 2.1";
             // 
             // item22ToolStripMenuItem
             // 
             this.item22ToolStripMenuItem.Name = "item22ToolStripMenuItem";
-            this.item22ToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.item22ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.item22ToolStripMenuItem.Text = "Item 2.2";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(355, 45);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Step 1: Click   [here]  to show and open the hidden \"Menu 2\" item.\r\nStep 2: Move " +
-    "the mouse from \"Menu 2\" to \"Menu 1\".\r\nStep 3: An exception like this should be t" +
-    "hrown:";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(93, 51);
+            this.button1.AutoSize = true;
+            this.button1.Location = new System.Drawing.Point(27, 41);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(42, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "here";
+            this.button1.Size = new System.Drawing.Size(93, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Show \"Menu 2\"";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(63, 103);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(582, 266);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(23, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "How to trigger the bug:";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 389);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Menu Strip Bug";
+            this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -164,16 +124,14 @@
 
         #endregion
 
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem menu1ToolStripMenuItem;
-        private ToolStripMenuItem item11ToolStripMenuItem;
-        private ToolStripMenuItem item12ToolStripMenuItem;
-        private ToolStripMenuItem menu2ToolStripMenuItem;
-        private ToolStripMenuItem item21ToolStripMenuItem;
-        private ToolStripMenuItem item22ToolStripMenuItem;
-        private Label label1;
-        private Button button1;
-        private TextBox textBox1;
-        private Label label2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem menu1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem item11ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem item12ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem item21ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem item22ToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
+
