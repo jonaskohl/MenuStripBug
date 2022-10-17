@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuStripBug", "MenuStripBug\MenuStripBug.csproj", "{5CA9AF6E-409E-467A-80B8-40CEB9899289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuStripBug", "MenuStripBug\MenuStripBug.csproj", "{5CA9AF6E-409E-467A-80B8-40CEB9899289}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuStripBugNetFramework48", "MenuStripBugNetFramework48\MenuStripBugNetFramework48.csproj", "{B8FC51F8-1786-4C3D-8B8E-D20D35AC587F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuStripBugPR", "MenuStripBugPR\MenuStripBugPR.csproj", "{A9C52852-F9A7-45D2-A641-0F63175F393F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B8FC51F8-1786-4C3D-8B8E-D20D35AC587F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8FC51F8-1786-4C3D-8B8E-D20D35AC587F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8FC51F8-1786-4C3D-8B8E-D20D35AC587F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C52852-F9A7-45D2-A641-0F63175F393F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C52852-F9A7-45D2-A641-0F63175F393F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C52852-F9A7-45D2-A641-0F63175F393F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C52852-F9A7-45D2-A641-0F63175F393F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
